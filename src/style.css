@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  background-color: rgba(206, 203, 203,0.6);
+  border-radius: 3px;
+
+
+}
+
+.form-group input{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  
+}
+.form-group lable{
+  font-weight: bolder;
+}
+.button{
+  position: relative;
+  top: 10px;
+  left: 50px;
+  font-weight: bolder;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+ .invalid-email {
+  
+  color: red;
+  
+}
+.invalid_password{
+  color: red;
+}
+.valid{
+  border: 2px solid green;
+}
+.invalid{
+  border: 2px solid red;
+}
